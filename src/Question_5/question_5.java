@@ -15,7 +15,7 @@ public class question_5 {
          for(int i=0; i<n; i++){
              a[i]=random.nextInt(50);
          }
-         System.out.println("Divers array values" + Arrays.toString(a)); // исходные данные массива
+         System.out.println("Divers array values: " + Arrays.toString(a)); // исходные данные массива
          Arrays.sort(a);
          System.out.println("Sorted array: " + Arrays.toString(a)); //чтобы найти предпоследний максимальный элемент, выполним сортировку массива
          int max = 0;
